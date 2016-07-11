@@ -72,3 +72,11 @@ Communications based in London, UK.
  - Experience of event management particular to hackathons
  - Social media expertise
  - Graphic Design basics in Photoshop, Illustrator
+
+#### Benefits
+
+ - Competitive base salary
+ - Medical, dental, vision benefits and 401K
+ - Unlimited PTO
+ - Weekly team lunches
+ - Travel opportunities
