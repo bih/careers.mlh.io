@@ -1,5 +1,9 @@
 ---
 layout: job
+title: "Events Specialist | Careers at MLH"
+excerpt:
+  MLH is looking for a passionate and intuitive individual to join our New York
+  City office as Events Specialist for the North American (NA) region.
 role: "Events Specialist"
 team: "Events"
 type: "Full Time"
