@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="job-listing">
+  <div class="content">
+    <div class="row">
+      <div class="col-9 col-md-8 col-sm-12">
+        <h2>{{ page.role }} <span>{{ page.team }} | {{ page.type }} | {{ page.location }}</span></h2>
+      </div>
+      <div class="col-3 col-md-4 hidden-sm text-right">
+        <a href="https://majorleaguehacking.typeform.com/to/rmtogi?role={{ page.role | replace: ' ', '%20' }}&source=mlh-careers&jobid={{ page.jobid }}" class="btn typeform-share link" data-mode="2" target="_blank">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="col-12">
+      {{ content }}
+
+      <h4>About MLH</h4>
+      {% include about-mlh.html %}
+    </div>
+
+    <footer class="col-12 text-center apply-now">
+      <p><a href="https://majorleaguehacking.typeform.com/to/rmtogi?role={{ page.role | replace: ' ', '%20' }}&source=mlh-careers&jobid={{ page.jobid }}" class="btn typeform-share link" data-mode="2" target="_blank">Apply Now</a></p>
+
+      <p>OR <br /> <a href="/">Back to Job List</a></p>
+    </footer>
+  </div>
+</section>
+
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+

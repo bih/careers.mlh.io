@@ -1,9 +1,8 @@
 # Site settings
-title: INSERT_SITE_TITLE
-description: >
-  INSERT_SITE_DESCRIPTION
+title: "Careers at Major League Hacking (MLH)"
+description: "A collection of jobs for hackers and other superheroes. Start a career at Major League Hacking."
 baseurl: ""
-url: "http://*.mlh.io"
+url: "http://careers.mlh.io"
 
 # Build settings
 markdown: kramdown
@@ -13,3 +12,4 @@ exclude:
  - Gemfile
  - Gemfile.lock
  - package.json
+ - README.md

@@ -1,0 +1,87 @@
+.top-navigation {
+  text-align: right;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.hero {
+  background-image: url('../img/mlh-team.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: $white;
+  padding: 8rem 0;
+
+  h1 {
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+.jobs {
+  ul, li {
+    overflow: auto;
+    zoom: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding: 1.5rem 0;
+  }
+
+  li {
+    border-bottom: 1px solid $light-gray;
+    margin-bottom: 0.5rem;
+
+    [class^="col-"]:first-of-type {
+      padding-left: 0;
+    }
+
+    .btn-small {
+      float: right;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.job-listing {
+  background: $light-gray;
+
+  .content {
+    background: $white;
+    padding: 2rem;
+
+    ul {
+      margin-bottom: 2rem;
+    }
+  }
+
+  h2 span {
+    display: block;
+    font-size: 1.15rem;
+  }
+
+  .apply-now {
+    padding-top: 1.5rem;
+  }
+}
+
+// Small
+@media screen and (max-width: $tablet-portrait) {
+  .hero {
+    background-position: bottom center;
+    padding: 6rem 0;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+// Extra Small
+@media screen and (max-width: $phone-portrait) {
+  .hero {
+    padding: 4rem 0;
+  }
+}
